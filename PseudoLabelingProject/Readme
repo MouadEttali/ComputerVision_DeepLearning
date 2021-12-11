@@ -1,6 +1,8 @@
 
 # Pseudo Labeling 
 Simple and efficient method of semi-supervised learning for deep neural networks. Basically, the proposed network is trained in a supervised fashion with labeled
-and unlabeled data simultaneously. For unlabeled data, Pseudo-Labels, just picking up the class which has the maximum predicted probability, are used as if they were true labels. This is in effect equivalent to Entropy
-Regularization. It favors a low-density separation between classes, a commonly assumed prior for semi-supervised learning. With Denoising Auto-Encoder and Dropout, this simple method outperforms conventional methods for semi-supervised learning with very
-small labeled data on the MNIST handwritten digit dataset.
+and unlabeled data simultaneously. For unlabeled data, Pseudo-Labels, just picking up the class which has the maximum predicted probability, 
+are used as if they were true labels. This is in effect equivalent to Entropy
+Regularization. It favors a low-density separation between classes, a commonly assumed prior for semi-supervised learning. With Denoising Auto-Encoder and Dropout,
+this simple method outperforms conventional methods for semi-supervised learning with very
+small labeled data on the MNIST handwritten digit dataset.
