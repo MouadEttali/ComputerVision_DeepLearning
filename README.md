@@ -5,7 +5,6 @@ This repository will be used to post my personal Deep learning projects as well 
 ## 1 License plate detection:
 
 An introductory project to familiarize with computer vision and deep learning as well, using YOLO and darknet to detect and Tesseract to ocr Arabic car license plates.
-...
 
 ## 2 Pseudo Labeling with Deep neural networks: 
 semi-supervised learning for deep neural networks. Basically, the proposed network is trained in a supervised fashion with labeled
